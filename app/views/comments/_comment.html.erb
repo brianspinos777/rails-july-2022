@@ -1,0 +1,14 @@
+<div id="<%= dom_id comment %>">
+
+  <h1>Comment <%= comment.id %></h1>
+  <p>
+    <strong>Content:</strong>
+    <%= comment.content %>
+  </p>
+
+  <p>Post id: <%= comment.post.id %></p>
+  <p><%= link_to 'post', post_path(comment.post) %></p>
+
+  <hr />
+
+</div>

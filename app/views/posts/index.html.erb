@@ -1,0 +1,17 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Posts</h1>
+
+<div id="posts">
+  <% @posts.each do |post| %>
+    <%#= render post %>
+    <hr />
+    <%= post.title %>
+    <p>
+      <%= link_to "Show", post %> | <%= "add comment-TODO" %>
+    </p>
+  <% end %>
+</div>
+
+<hr />
+<%= link_to "New post", new_post_path %>
