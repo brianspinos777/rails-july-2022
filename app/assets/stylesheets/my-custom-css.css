@@ -1,0 +1,7 @@
+body {
+    margin: 100px; /* seems this is not working, not sure why */
+}
+
+.my-color-red {
+    color: red;
+}

@@ -1,6 +1,9 @@
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrap-icons/font/bootstrap-icons';
 
+@import './my-custom-css.css';
+
+// .foobar { color: red;} // this works
 
 body {
     margin: 100px;
