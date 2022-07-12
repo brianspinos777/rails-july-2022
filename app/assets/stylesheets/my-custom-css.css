@@ -3,5 +3,5 @@ body {
 }
 
 .my-color-red {
-    color: red;
+    color: pink; /* with $ ./bin/dev -- we can update this withtout using rake */
 }

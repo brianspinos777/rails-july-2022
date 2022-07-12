@@ -1,10 +1,17 @@
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrap-icons/font/bootstrap-icons';
 
-@import './my-custom-css.css';
+@import './my-custom-css.css'; /* we can use .bin/dev to watch for changes, but need to refresh the browser to see the changes */
+
+
+// no .bin/dev changes for this stuff:
 
 // .foobar { color: red;} // this works
 
 body {
     margin: 100px;
+}
+
+.brian3 {
+    color: blue;
 }
