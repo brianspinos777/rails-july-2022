@@ -1,3 +1,3 @@
 .brian {
-    color: green;  /* with $ ./bin/dev -- we can NOT update this withtout using rake */
+    color: rgb(93, 152, 175);  /* with $ ./bin/dev -- we can NOT update this withtout using rake */
 }
