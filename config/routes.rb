@@ -4,9 +4,13 @@ Rails.application.routes.draw do
   resources :patients
   resources :comments
   resources :posts
+  
   devise_for :users
+
   get 'static_pages/landing_page'
   get 'static_pages/dashboard'
+  get 'static_pages/form_example_page'
+
   resources :users
 
   root "static_pages#landing_page"
