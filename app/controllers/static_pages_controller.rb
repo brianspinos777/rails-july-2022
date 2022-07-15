@@ -1,5 +1,5 @@
 class StaticPagesController < ApplicationController
-  skip_before_action :authenticate_user!, only: [:landing_page, :form_example_page]
+  skip_before_action :authenticate_user!, only: [:landing_page, :form_example_page, :bootstrap_example_page]
   
   def landing_page
   end
@@ -7,6 +7,9 @@ class StaticPagesController < ApplicationController
   def dashboard
   end
 
+  def bootstrap_example_page
+  end
+  
   def form_example_page
     @fake_user = FakeModel.new({
       field1: "f1",
